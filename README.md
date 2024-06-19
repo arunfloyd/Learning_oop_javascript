@@ -23,6 +23,7 @@ Polymorphism allows objects of different classes to be treated as objects of a c
 
 These four pillars of OOP (Encapsulation, Abstraction, Inheritance, and Polymorphism) help in creating a modular, reusable, and maintainable codebase by promoting the organization of software design around objects rather than functions or logic.
 
+# SOLID PRINCIPLES 
 
 
 # 1. Single Responsibility Principle (SRP)
