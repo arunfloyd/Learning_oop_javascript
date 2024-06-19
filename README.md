@@ -22,3 +22,35 @@ Polymorphism allows objects of different classes to be treated as objects of a c
 # In summary 
 
 These four pillars of OOP (Encapsulation, Abstraction, Inheritance, and Polymorphism) help in creating a modular, reusable, and maintainable codebase by promoting the organization of software design around objects rather than functions or logic.
+
+
+
+# 1. Single Responsibility Principle (SRP)
+
+Definition: A class should have only one reason to change, meaning it should have only one job or responsibility.
+
+Explanation: Each class should focus on a single task or piece of functionality. If a class has more than one responsibility, those responsibilities become coupled, and changes to one responsibility could impair or impede the functionality of another.
+
+# 2. Open/Closed Principle (OCP)
+
+Definition: Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
+
+Explanation: You should be able to add new functionality to a class without changing its existing code. This is often achieved through inheritance or interfaces.
+
+# 3. Liskov Substitution Principle (LSP)
+
+Definition: Subtypes must be substitutable for their base types without altering the correctness of the program.
+
+Explanation: Derived classes must be replaceable for their base classes without affecting the functionality of the code. This ensures that a derived class can stand in for its base class.
+
+# 4. Interface Segregation Principle (ISP)
+
+Definition: Clients should not be forced to depend on interfaces they do not use.
+
+Explanation: It is better to have multiple small, specific interfaces than a single, general-purpose interface. This helps in avoiding implementing methods that are not needed.
+
+# 5. Dependency Inversion Principle (DIP)
+
+Definition: High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
+
+Explanation: This principle emphasizes the importance of relying on interfaces or abstract classes rather than concrete implementations. This makes the system more modular and flexible.
